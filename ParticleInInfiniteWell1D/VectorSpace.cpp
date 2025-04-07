@@ -8,7 +8,7 @@ bool VectorSpace::IsInSpan(const Vector& v) const {
 
 
 
-    for (v: )
+    // for (v: )
     return false;
 }
 
