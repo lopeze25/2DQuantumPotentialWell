@@ -1,4 +1,4 @@
-
+/* 
 #include "Vector.h";
 
 double Vector::norm() const {
@@ -13,4 +13,4 @@ Vector Vector::cross(const Vector& secondOperand) const {
 Vector Vector::normalize() const {
 
 }
-
+*/
