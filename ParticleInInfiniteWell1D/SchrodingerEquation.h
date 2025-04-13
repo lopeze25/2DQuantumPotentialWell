@@ -10,3 +10,6 @@ private:
     double dy;
     double mass;
     double hbar;
+
+public: 
+};

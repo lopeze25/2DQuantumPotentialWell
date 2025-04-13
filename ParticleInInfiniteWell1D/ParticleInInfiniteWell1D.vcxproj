@@ -131,12 +131,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Matrix.cpp" />
+    <ClCompile Include="SchrodingerEquation.cpp" />
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="Vector.cpp" />
     <ClCompile Include="VectorSpace.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Matrix.h" />
+    <ClInclude Include="SchrodingerEquation.h" />
     <ClInclude Include="Vector.h" />
     <ClInclude Include="VectorSpace.h" />
   </ItemGroup>
