@@ -1,8 +1,9 @@
 #pragma once
 
 #include "Matrix.h"
+#include "Vector.h"
 
-class SchrodingerSolver {
+class SchrodingerEquation {
 private:
     int gridSizeX;
     int gridSizeY;
@@ -11,5 +12,7 @@ private:
     double mass;
     double hbar;
 
-public: 
+public:     
+
+     Vector equationVariables(); 
 };
