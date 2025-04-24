@@ -1,12 +1,13 @@
 #include <iostream>
 #include <stdio.h> 
 #include <vector>
+
 // #include<GL/glut.h> 
 #include<math.h> 
 
 
 int main() {
-    std::vector<std::vector<int>> a(3, std::vector<int>(3));  
+    std::vector<std::vector<int>> a(3, std::vector<int>(3));
 
     a[0][0] = 1;
     a[0][1] = 2;
@@ -27,25 +28,51 @@ int main() {
         std::cout << std::endl;
     }
 
-	/*
-	
-		Schroingers equation
+    /*
+
+        Schroingers equation
 
 
 
 
-	
-	
-	*/
 
-	/*
-	
-	
-	Linear algebra library 
-	
-	
-	
-	*/
 
+    */
+
+    /*
+
+
+    Linear algebra library
+
+
+
+    */
+
+
+    int option;
+    do {
+        std::cout << "\2dquantumbox Menu:\n";
+        std::cout << "1. Solve\n";
+        std::cout << "3. Exit\n";
+        std::cout << "Enter option: ";
+        std::cin >> option;
+
+        switch (option) {
+        case 1: {
+            std::cout << "Solving...\n";
+            break;
+        }
+
+        case 3:
+            std::cout << "Exiting program.\n";
+            break;
+
+        default:
+            std::cout << "Invalid option.\n";
+            break;
+        }
+
+    } while (option != 3);
+
+    return 0;
 }
-
